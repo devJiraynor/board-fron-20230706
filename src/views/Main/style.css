@@ -1,0 +1,136 @@
+#main-top-wrapper {
+    padding: 80px 0 40px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main-top-container {
+    width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.main-top-intro {
+    color: rgba(0, 0, 0, 1);
+
+    text-align: center;
+    font-family: GimhaeGaya;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.8px;
+
+    white-space: pre-wrap;
+}
+
+.main-top-contents-box {
+    width: 100%;
+}
+
+.main-top-contents-title {
+    margin: 24px 0;
+
+    color: rgba(0, 0, 0, 1);
+
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.main-top-contents {
+    width: 100%;
+    min-width: 1200px;
+
+    display: flex;
+    justify-content: space-between;
+
+    gap: 24px;
+}
+
+#main-bottom-wrapper {
+    padding: 40px 0;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.main-bottom-container {
+    width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.main-bottom-title {
+    color: rgba(0, 0, 0, 1);
+    
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.main-bottom-contents-box {
+    width: 100%;
+    min-width: 1200px;
+
+    display: grid;
+
+    grid-template-columns: 8fr 4fr;
+    gap: 24px;
+}
+
+.main-bottom-latest-contents-box {
+    grid-column: 1 / 2;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+.main-bottom-popular-word-box {
+    grid-column: 2 / 3;
+}
+
+.main-bottom-popular-word-card {
+    padding: 24px;
+
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.main-bottom-popular-card-box {
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+
+.main-bottom-popular-card-title {
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.main-bottom-popular-card-contents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.main-bottom-pagination-box {
+    margin-top: 60px;
+
+    display: flex;
+    justify-content: center;
+}
